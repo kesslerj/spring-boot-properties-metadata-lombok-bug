@@ -4,7 +4,7 @@ Demo project to show a bug in the spring-boot-configuration-processor.
 
 ## Bug description
 
-Following is the same description i posted in the issue [#13172](https://github.com/spring-projects/spring-boot/issues/13172)
+Following is the same description i posted in the issue [#13172](https://github.com/spring-projects/spring-boot/issues/13172).
 
 Property metadata contains properties for fields which have a non-public (or none) setter or getter when using lombok. The bug occures if 
 there are lombok annotations used, which define the `lombok.AccessLevel` as annotation attribute.
