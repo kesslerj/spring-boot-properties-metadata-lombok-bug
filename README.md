@@ -25,6 +25,6 @@ public class LombokProperties {
 }
 ```
 
-Property `test.lombok.should-not-appear` is contained in the metadata.
+Property `test.lombok.should-not-appear` is contained in the metadata, but it should not.
 
 Behaviour in spring-boot-configuration-processor: `ConfigurationMetadataAnnotationProcessor` only checks if lomboks `@Getter` or `@Setter` are used, not if any attributes were set.
